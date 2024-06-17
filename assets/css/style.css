@@ -1238,3 +1238,49 @@ padding-left: 0;
 .contact-page-form form {
     padding: 20px 15px 0;
 }
+
+.departments-card {
+  background: var(--white);
+  box-shadow: 5px 30px 50px hsla(0, 1%, 15%, 0.05);
+  max-width: 400px;
+  margin-inline: auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.contact-card .card-banner {
+  margin-bottom: 20px;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+.contact-card img {
+  width: 85%;
+  height: 55%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.contact-card:hover img { transform: scale(1.05); }
+
+.contact-card .card-title { margin-bottom: 15px; }
+
+.contact-card .card-text {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contact-card .card-link {
+  color: var(--orange-web);
+  font-family: var(--ff-rubik);
+  font-weight: var(--fw-500);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  transition: var(--transition);
+}
+
+.contact-card .card-link:is(:hover, :focus) { gap: 15px; }
+
+.departcontactments .btn-primary { margin-inline: auto; }
