@@ -36,6 +36,7 @@ window.addEventListener("scroll", function () {
 
 });
 
+/**********************/
 
 
 /**
@@ -48,4 +49,12 @@ window.addEventListener("scroll", function () {
 
   window.scrollY >= 800 ? goTopBtn.classList.add("active") : goTopBtn.classList.remove("active");
 
+});
+
+$('.carousel-client').bxSlider({
+  auto: true,
+    slideWidth: 1200,
+    minSlides: 1,
+    maxSlides: 5,
+    controls: false
 });

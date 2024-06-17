@@ -287,7 +287,7 @@ body { background: var(--white); }
 
 .hero-banner { margin-bottom: 30px; }
 
-.hero-banner img { width: 100%; }
+.hero-banner img { width: 100%;}
 
 .hero-title { margin-bottom: 20px; }
 
@@ -947,7 +947,7 @@ body { background: var(--white); }
   .about-banner .vector-line {
     width: 400px;
     bottom: 50px;
-    left: -50px;
+    /* left: -50px; */
   }
 
   .play-btn {
@@ -987,6 +987,10 @@ body { background: var(--white); }
   }
 
 
+  /**
+  * Client
+  */
+  
 
   /**
    * INSTRUCTOR
@@ -1106,3 +1110,4 @@ body { background: var(--white); }
   .cta-banner { left: 68%; }
 
 }
+
