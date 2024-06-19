@@ -25,9 +25,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
     rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body id="top">
@@ -66,15 +68,15 @@
           </li>
 
           <li>
-            <a href="aboutus.html" class="navbar-link">About</a>
+            <a href="pages/aboutus.html" class="navbar-link">About</a>
           </li>
 
           <li>
-            <a href="services.html" class="navbar-link">Service</a>
+            <a href="pages/services.html" class="navbar-link">Service</a>
           </li>
 
           <li>
-            <a href="contact.html" class="navbar-link">Contact</a>
+            <a href="pages/contact.html" class="navbar-link">Contact</a>
           </li>
 
         </ul>
@@ -257,6 +259,7 @@
 
         </div>
       </section>
+      
 
 
 
@@ -266,7 +269,7 @@
         - #INSTRUCTOR
       -->
 
-      <section class="instructor">
+      <section class="instructor" style="padding-bottom: 70px;">
         <div class="container">
 
           <img src="./assets/images/instructor-vactor-1.svg" alt="Vector line art" class="vector-line">
@@ -278,35 +281,42 @@
           </div>
 
 
-          <section class="client">
+          <section class="client-section ">
             <div class="container">
-              <div class="row">
+                    
+        
+        
+        
+         <div class="row">
+        <div class="owl-carousel owl-theme client-logo " id="client-logo">
           
-              
+          <div class="item  " style="height: 180px;" >
+             <a href="#"><img src="./assets/images/clients/ngp_edu.jpg" class="img-responsive" alt="client-logo"></a>
+                            </div>
           
-                <div class="carousel-client">
-                  
-                  <div class="slide"><img src="./assets/images/clients/ngp_edu.jpg"></div>
-                  <div class="slide"><img src="./assets/images/clients/abdul_edu.jpg"></div>
-                  <div class="slide"><img src="./assets/images/clients/kmch_edu.png"></div>
-                  <div class="slide"><img src="./assets/images/clients/vinmeen_edu.jpg"></div>
-                  <div class="slide"><img src="./assets/images/clients/psg_edu.png"></div>
-                  <div class="slide"><img src="./assets/images/clients/sri_rama_edu.png"></div>
-                  <div class="slide"><img src="./assets/images/clients/cit_edu.png"></div>
-                  <div class="slide"><img src="./assets/images/clients/sri_rama_dental_edu.jpg"></div>
-                  <div class="slide"><img src="./assets/images/clients/ssm_edu.png"></div>
-                  <div class="slide"><img src="./assets/images/clients/sri_rama_dental_edu.jpg"></div>
-
-              
-                  <!-- <div class="slide"><img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo2.png"></div>
-                  <div class="slide"><img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo3.png"></div>
-                  <div class="slide"><img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo1.png"></div>
-                  <div class="slide"><img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo2.png"></div>
-                  <div class="slide"><img src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/slider-logo3.png"></div> -->
+          <div class="item " style="height: 180px;" >
+             <a href="#"><img src="./assets/images/clients/abdul_edu.jpg" class="img-responsive" alt="client-logo"></a>
+                            </div>
+          
+           <div class="item " style="height: 180px;" >
+             <a href="#"><img src="./assets/images/clients/vinmeen_edu.jpg" class="img-responsive" alt="client-logo"></a>
+                            </div>
+          
+           <div class="item " style="height: 180px;" >
+              <a href="#"><img src="./assets/images/clients/psg-2.png" class="img-responsive" alt="client-logo"></a>
+                            </div>
+          
+           <div class="item" style="height: 180px;" >
+              <a href="#"><img src="./assets/images/clients/gsis_edu.jpg"  class="img-responsive" alt="client-logo"></a>
+                            </div>
+          
+           <div class="item" style="height: 180px;" >
+               <a href="#"><img src="./assets/images/clients/cit_edu.png" class="img-responsive" alt="client-logo"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </section>
+        </section>
 
           <!-- <ul class="instructor-list">
 
@@ -496,11 +506,11 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo1.svg" alt="Technetix logo">
+            <img src="./assets/images/logo.png" alt="Technetix logo">
           </a>
 
           <p class="footer-text">
-            Shaping Tomorrow's Classrooms and Conference Rooms Today. Professionally scale cross functional human capital and extensive technology.
+            Inspire & Innovative LED Panels for Classrooms & Conference Rooms.
           </p>
 
           <ul class="social-list">
