@@ -387,9 +387,11 @@ body { background: var(--white); }
   width: 80%;
   max-width: 1200px;
   margin: 0 10%;
-  background: linear-gradient(to right, var(--mango-tango), var(--orange-web)), url('../images/about/about-shape2.png');
-  border-radius: 15px;
+  /* background: linear-gradient(55deg, #693eaa 25%, #47bbff 100%); */
+  /* background: linear-gradient(to right, var(--mango-tango) 25%, var(--orange-web) 100%), url('../images/about/about-shape2.png'); */
+  border-radius: 10px;
   padding: 20px;
+  background-image: url(../images/about/counter-background.png);
 }
 
 .counter {
@@ -398,20 +400,22 @@ body { background: var(--white); }
   justify-content: center;
   align-items: center;
   color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .number {
   font-weight: bold;
   margin-bottom: 10px;
   font-weight: var(--fw-500);
-  font-family: var(--dm-sans);
+  font-family: var(--ff-poppins);
   font-size: var(--fs-5);
 }
 
 .label {
   font-size: 18px;
     font-weight: var(--fw-500);
-    font-family: var(--dm-sans);
+    font-family: var(--ff-poppins);
     font-size: var(--fs-5);
 }
 
@@ -423,6 +427,7 @@ body { background: var(--white); }
 .departments {
   padding-block: var(--section-padding);
   background: var(--floral-white);
+  background-image: url(../images/about/choose-us-bg3.jpg);
 }
 
 .departments-title {
