@@ -301,7 +301,8 @@ body { background: var(--white); }
  * #ABOUT
 \*-----------------------------------*/
 
-.about { padding-block: var(--section-padding); }
+.about { background: var(--gradient);
+  padding: 150px 0 var(--section-padding); }
 
 .about-banner {
   position: relative;
@@ -351,7 +352,68 @@ body { background: var(--white); }
 .about .section-text { margin-bottom: 50px; }
 
 
+.who-text {
+  font-size: 14px;
+    line-height: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    color: #086ad8;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
 
+.tenitix-counter {
+  position: relative;
+        z-index: 1;
+}
+
+.tenitix-counter-wrapper {
+  background: linear-gradient(55deg, #693eaa 25%, #47bbff 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: -110px;
+    padding-top: 65px;
+    padding-bottom: 95px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 10%;
+  background: linear-gradient(to right, var(--mango-tango), var(--orange-web)), url('../images/about/about-shape2.png');
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.number {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-weight: var(--fw-500);
+  font-family: var(--dm-sans);
+  font-size: var(--fs-5);
+}
+
+.label {
+  font-size: 18px;
+    font-weight: var(--fw-500);
+    font-family: var(--dm-sans);
+    font-size: var(--fs-5);
+}
 
 
 /*-----------------------------------*\
