@@ -54,7 +54,7 @@ window.addEventListener("scroll", function () {
 $('.carousel-client').bxSlider({
   auto: true,
     slideWidth: 1200,
-    minSlides: 1,
-    maxSlides: 5,
+    minSlides: 3,
+    maxSlides: 12,
     controls: false
 });
