@@ -1,12 +1,12 @@
-Eduland - Education landing page
+Technetix - Interactive pannel sales
 
-alt = Eduland logo
+alt = Technetix logo
 
 <ion-icon name="menu-outline"></ion-icon>
 
 <ion-icon name="close-outline"></ion-icon>
 
-alt = Eduland logo
+alt = Technetix logo
 
 Home
 About
@@ -32,7 +32,7 @@ Discover More
 
 # ABOUT
 
-alt = Eduland students
+alt = Technetix students
 alt = Vector line art
 
 <ion-icon name="play"></ion-icon>
@@ -111,7 +111,7 @@ Register Now
 
 # FOOTER
 
-alt = Eduland logo
+alt = Technetix logo
 
 Professionally scale cross functional human capital and extensive technology.
 
