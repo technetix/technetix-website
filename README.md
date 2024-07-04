@@ -8,7 +8,7 @@
 
   Technetix business agency website, <br />
 
-  <a href="https://sree1894.github.io/technetix/"><strong>➥ Live Demo</strong></a>
+  <a href="https://technetix.github.io/technetix-website/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
