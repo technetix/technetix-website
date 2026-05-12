@@ -2256,3 +2256,8 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.disclaimer{
+  text-align: center;
+  padding: 0 5%;
+}
